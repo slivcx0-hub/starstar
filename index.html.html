@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stellar Evolution — التطور النجمي</title>
+    <meta
+      name="description"
+      content="رحلة حياة النجوم من الولادة إلى النهاية — عرض علمي فلكي تفاعلي."
+    />
+    <meta name="theme-color" content="#05070d" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="stars" aria-hidden="true"></div>
+
+    <main class="deck" id="deck">
+      <!-- 1 — الغلاف -->
+      <section class="slide cover active" id="slide-1">
+        <img
+          class="cover-bg"
+          src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1600&q=80"
+          alt="سديم ملون ونجوم في أعماق الفضاء"
+        />
+        <div class="cover-inner">
+          <p class="kicker i18n" data-en="An astronomical science presentation">
+            عرض علمي فلكي
+          </p>
+          <h1 class="cover-title">STELLAR EVOLUTION</h1>
+          <p
+            class="cover-sub i18n"
+            data-en="Stellar Evolution: the journey of stars from birth to the end"
+          >
+            التطور النجمي: رحلة حياة النجوم من الولادة إلى النهاية
+          </p>
+          <p class="foot i18n" data-en="Prepared by: Shahd Sufian Al-Adib">
+            إعداد الطالبة: شهد سفيان الأديب
+          </p>
+        </div>
+      </section>
+
+      <!-- 2 — ما هو التطور النجمي؟ -->
+      <section class="slide" id="slide-2">
+        <div class="slide-inner">
+          <p class="kicker i18n" data-en="The concept">المفهوم</p>
+          <h2
+            class="slide-title i18n"
+            data-en="What is Stellar Evolution?"
+          >
+            ما هو التطور النجمي؟
+          </h2>
+          <ul class="slide-body">
+            <li
+              class="i18n"
+              data-en="Stellar evolution is the life cycle of a star, from its formation to its end."
+            >
+              التطور النجمي هو دورة حياة النجم منذ تكوّنه حتى نهايته.
+            </li>
+            <li
+              class="i18n"
+              data-en="A star's properties and structure change as time passes."
+            >
+              تتغير خصائص النجم وبنيته مع مرور الزمن.
+            </li>
+            <li
+              class="i18n"
+              data-en="A star's mass determines its evolutionary path and final fate."
+            >
+              تحدد كتلة النجم مسار تطوره ومصيره النهائي.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 3 — ولادة النجوم -->
+      <section class="slide split" id="slide-3">
+        <figure class="slide-media">
+          <img
+            src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1600&q=80"
+            alt="سحابة غبار وغاز مضيئة في الفضاء تمثل سديمًا جزيئية"
+          />
+        </figure>
+        <div class="slide-inner">
+          <p class="kicker i18n" data-en="Stage one">المرحلة الأولى</p>
+          <h2 class="slide-title i18n" data-en="Stellar Birth">
+            ولادة النجوم
+          </h2>
+          <ul class="slide-body">
+            <li
+              class="i18n"
+              data-en="The process begins inside cold molecular clouds of gas and dust."
+            >
+              تبدأ العملية داخل السحب الجزيئية الباردة من الغاز والغبار.
+            </li>
+            <li
+              class="i18n"
+              data-en="Gravity collapses the matter and forms a protostar."
+            >
+              تؤدي الجاذبية إلى انهيار المادة وتكوّن نجم أولي (Protostar).
+            </li>
+            <li
+              class="i18n"
+              data-en="Temperature and pressure gradually rise at the center."
+            >
+              ترتفع درجة الحرارة والضغط في المركز تدريجيًا.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 4 — بداية الاندماج النووي -->
+      <section class="slide split" id="slide-4">
+        <figure class="slide-media">
+          <img
+            src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=1600&q=80"
+            alt="مجرّة متوهجة في سماء الليل تمثل اندماجًا نوويًا يولّد الطاقة"
+          />
+        </figure>
+        <div class="slide-inner">
+          <p class="kicker i18n" data-en="Stage two">المرحلة الثانية</p>
+          <h2 class="slide-title i18n" data-en="Main Sequence — Fusion Begins">
+            بداية الاندماج النووي
+          </h2>
+          <ul class="slide-body">
+            <li
+              class="i18n"
+              data-en="Hydrogen fusion into helium begins in the star's core."
+            >
+              يبدأ اندماج الهيدروجين وتحوله إلى هيليوم في قلب النجم.
+            </li>
+            <li
+              class="i18n"
+              data-en="Nuclear fusion produces an enormous amount of energy."
+            >
+              ينتج عن الاندماج النووي قدر هائل من الطاقة.
+            </li>
+            <li
+              class="i18n"
+              data-en="The star enters a stable phase known as the main sequence."
+            >
+              يدخل النجم مرحلة الاستقرار المعروفة بالتتابع الرئيسي.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 5 — العمالقة الحمراء -->
+      <section class="slide split" id="slide-5">
+        <figure class="slide-media">
+          <img
+            src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=1600&q=80"
+            alt="نجمة حمراء متوهجة تحيط بها هالة غازية في الفضاء"
+          />
+        </figure>
+        <div class="slide-inner">
+          <p class="kicker i18n" data-en="Stage three">المرحلة الثالثة</p>
+          <h2 class="slide-title i18n" data-en="Red Giants">
+            العمالقة الحمراء
+          </h2>
+          <ul class="slide-body">
+            <li
+              class="i18n"
+              data-en="Hydrogen in the star's core is gradually exhausted."
+            >
+              ينفد الهيدروجين في قلب النجم تدريجيًا.
+            </li>
+            <li
+              class="i18n"
+              data-en="The star expands and its outer layers cool down."
+            >
+              يتمدد النجم وتبرد طبقاته الخارجية.
+            </li>
+            <li
+              class="i18n"
+              data-en="Later stages differ depending on the star's mass."
+            >
+              تختلف المراحل اللاحقة باختلاف كتلة النجم.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 6 — مصير النجوم منخفضة ومتوسطة الكتلة -->
+      <section class="slide" id="slide-6">
+        <div class="slide-inner">
+          <p class="kicker i18n" data-en="Path one">المسار الأول</p>
+          <h2
+            class="slide-title i18n"
+            data-en="Fate of Low- and Medium-Mass Stars"
+          >
+            مصير النجوم منخفضة ومتوسطة الكتلة
+          </h2>
+          <ul class="slide-body">
+            <li
+              class="i18n"
+              data-en="The star sheds its outer layers, forming a planetary nebula."
+            >
+              تتخلص النجوم من طبقاتها الخارجية مكوّنة سديمًا كوكبيًا.
+            </li>
+            <li
+              class="i18n"
+              data-en="The hot, dense core remains as a white dwarf."
+            >
+              يبقى القلب الساخن والكثيف على هيئة قزم أبيض.
+            </li>
+            <li
+              class="i18n"
+              data-en="The white dwarf cools slowly over immense spans of time."
+            >
+              يبرد القزم الأبيض ببطء عبر فترات زمنية هائلة.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 7 — مصير النجوم الضخمة -->
+      <section class="slide" id="slide-7">
+        <div class="slide-inner">
+          <p class="kicker i18n" data-en="Path two">المسار الثاني</p>
+          <h2 class="slide-title i18n" data-en="Fate of Massive Stars">
+            مصير النجوم الضخمة
+          </h2>
+          <ul class="slide-body">
+            <li
+              class="i18n"
+              data-en="Heavier elements build up in the core, all the way to iron."
+            >
+              تتكوّن في قلب النجم عناصر أثقل تدريجيًا حتى الحديد.
+            </li>
+            <li
+              class="i18n"
+              data-en="The core collapses and the star explodes as a supernova."
+            >
+              ينهار القلب عند نهاية حياته وينفجر النجم في مستعر أعظم (Supernova).
+            </li>
+            <li
+              class="i18n"
+              data-en="A neutron star or a black hole may result, depending on the remaining core mass."
+            >
+              قد ينتج عن الانهيار نجم نيوتروني أو ثقب أسود، حسب كتلة القلب
+              المتبقي.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 8 — مقارنة المسارات النجمية -->
+      <section class="slide" id="slide-8">
+        <div class="slide-inner">
+          <p class="kicker i18n" data-en="Comparing stellar paths">
+            مقارنة المسارات النجمية
+          </p>
+          <h2 class="slide-title i18n" data-en="Mass Decides the Fate">
+            المصير يتحدد بالكتلة
+          </h2>
+          <div class="paths">
+            <div class="path">
+              <h3
+                class="path-label i18n"
+                data-en="Low &amp; medium mass — the Sun's path"
+              >
+                نجوم منخفضة ومتوسطة الكتلة — مسار الشمس
+              </h3>
+              <ol class="path-steps">
+                <li class="i18n" data-en="Protostar">نجم أولي</li>
+                <li class="i18n" data-en="Stable star">نجم مستقر</li>
+                <li class="i18n" data-en="Red giant">عملاق أحمر</li>
+                <li class="i18n" data-en="Planetary nebula">سديم كوكبي</li>
+                <li class="final i18n" data-en="White dwarf">قزم أبيض</li>
+              </ol>
+            </div>
+            <div class="path">
+              <h3 class="path-label i18n" data-en="Massive stars — a violent end">
+                نجوم ضخمة — نهاية عنيفة
+              </h3>
+              <ol class="path-steps">
+                <li class="i18n" data-en="Protostar">نجم أولي</li>
+                <li class="i18n" data-en="Massive star">نجم ضخم</li>
+                <li class="i18n" data-en="Supergiant">عملاق فائق</li>
+                <li class="i18n" data-en="Supernova">مستعر أعظم</li>
+                <li class="final i18n" data-en="Neutron star / Black hole">
+                  نجم نيوتروني أو ثقب أسود
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9 — لماذا تهمنا النجوم؟ -->
+      <section class="slide" id="slide-9">
+        <div class="slide-inner">
+          <p class="kicker i18n" data-en="Why it matters">لماذا يهمّنا هذا</p>
+          <h2 class="slide-title i18n" data-en="Why Do Stars Matter?">
+            لماذا تهمنا النجوم؟
+          </h2>
+          <ul class="slide-body">
+            <li
+              class="i18n"
+              data-en="Stars produce many of the chemical elements that form planets."
+            >
+              تنتج النجوم كثيرًا من العناصر الكيميائية التي تدخل في تكوين
+              الكواكب.
+            </li>
+            <li
+              class="i18n"
+              data-en="Stellar explosions spread heavy elements across space."
+            >
+              تسهم الانفجارات النجمية في نشر العناصر الثقيلة عبر الفضاء.
+            </li>
+            <li
+              class="i18n"
+              data-en="Studying stars helps us understand the origin and evolution of the universe."
+            >
+              تساعد دراسة النجوم على فهم نشأة الكون وتطوره.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 10 — الخاتمة -->
+      <section class="slide cover" id="slide-10">
+        <img
+          class="cover-bg"
+          src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=1600&q=80"
+          alt="مجرة حلزونية بعيدة تتوهج في الفضاء الأسود"
+        />
+        <div class="cover-inner">
+          <h1 class="cover-title small">STARS ARE NOT FOREVER</h1>
+          <p
+            class="cover-sub i18n"
+            data-en="Every star has a beginning, a journey, and an end."
+          >
+            كل نجم له بداية، ورحلة، ونهاية.
+          </p>
+          <p class="thanks i18n" data-en="Thank you for watching">
+            شكرًا لمشاهدتكم
+          </p>
+          <p class="foot i18n" data-en="Prepared by: Shahd Sufian Al-Adib">
+            إعداد الطالبة: شهد سفيان الأديب
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <div class="progress" aria-hidden="true">
+      <span id="progress-bar"></span>
+    </div>
+    <div id="counter" class="counter">1 / 10</div>
+
+    <div class="controls">
+      <button id="btn-prev" class="ctrl" type="button">
+        <span class="i18n" data-en="Previous">السابق</span>
+      </button>
+      <button id="btn-next" class="ctrl primary" type="button">
+        <span class="i18n" data-en="Next">التالي</span>
+      </button>
+      <button id="btn-fs" class="ctrl" type="button">
+        <span class="i18n" data-en="Fullscreen">ملء الشاشة</span>
+      </button>
+      <button id="btn-lang" class="ctrl" type="button">EN</button>
+    </div>
+
+    <script type="module" src="./assets/js/slides.js"></script>
+  </body>
+</html>
